@@ -1,12 +1,205 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Johan Marcano</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://kit.fontawesome.com/7ffc1a89af.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <title>Curriculum Johan Marcano</title>
 </head>
 <body>
-    <h1>Título 1</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident commodi molestiae in beatae ut magni rem corporis consectetur dolorum quisquam aut voluptatum sed, sapiente voluptatem temporibus possimus quia maxime enim.</p>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="padding-top: 0;">
+      <div class="container-fluid">
+        <a class="navbar-logo" href="./index.html"><strong>Johan Marcano</strong></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="padding-left: 60%; ">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Educación</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portafolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Experiencia</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="banner-text">
+      <div>
+        <img class="img-header" src="./assets/img/johanmarcano.jpg" alt="" >
+      </div>
+      <div>
+          <h1 class="h1-header">JOHAN MARCANO</h1>
+        <p class="p-header">Estudiante de Bootcamp Desarrollo Full Stack JavaScript en Desafío Latam. Dedicado al mundo del marketing desde hace 5 años</p>
+        <p class="p-header">Email: Johand503@gmail.com</p>
+      </div>
+      
+    </section>
+  </header>
+  <div class="education">
+    <h2>EDUCACIÓN</h2>
+    <Table class="table d-flex justify-content-center">
+      <tr>
+          <th>2014</th>
+          <td class="ps-5">
+            <strong>Lic. Sociología </strong> <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ut placeat illo est unde. Quod dicta nisi quia porro quas sapiente delectus laudantium? Possimus, veniam. Unde voluptates necessitatibus aut similique.</p>
+          </td>
+      </tr>
+      <tr>
+          <th>2014</th>
+          <td class="ps-5">
+            <strong>Diplomado Marketing Digital </strong> <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ut placeat illo est unde. Quod dicta nisi quia porro quas sapiente delectus laudantium? Possimus, veniam. Unde voluptates necessitatibus aut similique.</p>
+          </td>
+      </tr>
+      <tr>
+          <th>2020</th>
+          <td class="ps-5">
+            <strong>Certificado Meta</strong> <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ut placeat illo est unde. Quod dicta nisi quia porro quas sapiente delectus laudantium? Possimus, veniam. Unde voluptates necessitatibus aut similique.</p>
+          </td>
+      </tr>
+      <tr>
+          <th>2023</th>
+          <td class="ps-5">
+            <strong>Bootcamp Desarrollo Full Stack Javascript</strong> <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ut placeat illo est unde. Quod dicta nisi quia porro quas sapiente delectus laudantium? Possimus, veniam. Unde voluptates necessitatibus aut similique.</p>
+          </td>
+      </tr>
+  </Table>
+</div>
+
+  <div class="portfolio">
+    <h2 style="color: white;">PORTAFOLIO</h2>
+    <div class="container text-center">
+      <div class="row" style="justify-content: center;" >
+        <div class="card" style="width: 18rem; margin: 10px;">
+          <img src="./assets/img/cupon-1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Proyecto 1</h5>
+            <div class="card-text">
+              <p class="fw-light">CV / Tablas / HTML / CSS</p>
+            </div>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem; margin: 20px;">
+          <img src="./assets/img/cupon-2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Proyecto 2</h5>
+            <div class="card-text">
+              <p class="fw-light">Landing Page / HTML / CSS</p>
+            </div>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem; margin: 20px;">
+          <img src="./assets/img/cupon-3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Proyecto 3</h5>
+            <div class="card-text">
+              <p class="fw-light">Landing / Flexbox</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container text-center">
+      <div class="row" style="justify-content: center;">
+        <div class="card" style="width: 18rem; margin: 20px;">
+          <img src="./assets/img/cupon-4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Proyecto 4</h5>
+            <div class="card-text">
+              <p class="fw-light">Bootstrap</p>
+              <div class="d-2">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem; margin: 20px;">
+          <img src="./assets/img/cupon-5.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Proyecto 5</h5>
+            <div class="card-text">
+              <p class="fw-light">Github</p>
+              </div>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem; margin: 20px;">
+          <img src="./assets/img/cupon-6.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Proyecto 6</h5>
+            <p class="fw-light">Portfolio</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+  <div class="expirience">
+    <h2>EXPERIENCIA</h2>
+    <Table class="table d-flex justify-content-center">
+      <tr>
+          <th>2014</th>
+          <td class="ps-5">
+            <strong>Caracas, Venezuela </strong> <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ut placeat illo est unde. Quod dicta nisi quia porro quas sapiente delectus laudantium? Possimus, veniam. Unde voluptates necessitatibus aut similique.</p>
+          </td>
+      </tr>
+      <tr>
+          <th>2018</th>
+          <td class="ps-5">
+            <strong>Caracas, Venezuela </strong> <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ut placeat illo est unde. Quod dicta nisi quia porro quas sapiente delectus laudantium? Possimus, veniam. Unde voluptates necessitatibus aut similique.</p>
+          </td>
+      </tr>
+      <tr>
+          <th>2020</th>
+          <td class="ps-5">
+            <strong>Santiago, Chile </strong> <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ut placeat illo est unde. Quod dicta nisi quia porro quas sapiente delectus laudantium? Possimus, veniam. Unde voluptates necessitatibus aut similique.</p>
+          </td>
+      </tr>
+      <tr>
+          <th>2022</th>
+          <td class="ps-5">
+            <strong>Santiago, Chile </strong> <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ut placeat illo est unde. Quod dicta nisi quia porro quas sapiente delectus laudantium? Possimus, veniam. Unde voluptates necessitatibus aut similique.</p>
+          </td>
+      </tr>
+  </Table>
+</div>
+
+  <section class="form-body">
+    <form>
+      <fieldset disabled class="fieldset-form">
+        <div class="text-center">
+          <legend class="text-white">Suscribete al Newsletter</legend>
+        </div>
+        <div class="mb-3">
+          <input type="text" id="disabledTextInput" class="form-control" placeholder="Nombre">
+        </div>
+        <div class="mb-3">
+          <input type="text" id="disabledTextInput" class="form-control" placeholder="Correo Electrónico">
+        </div>
+        </div>
+        <div class="text-center">
+          <button type="button" class="btn btn-light">Enviar</button>
+        </div>
+      </fieldset>
+    </form>
+  </section>
+  <footer>
+    <p > <strong>JOHAN MARCANO</strong> </p>
+    <p>© 2023 Johan Marcano .Todos los derechos reservados.</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </body>
 </html>
+
