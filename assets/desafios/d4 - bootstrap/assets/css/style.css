@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  margin: 0px;
+  background-color: white;
+
+}
+
+.container-fluid{
+  background-color: #28A745; 
+  padding-left: 10%; 
+  padding-right: 15%; 
+  height: 75px;
+}
+
+.card-body{
+  text-align: left;
+}
+
+.d-2{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.product-price{
+  display: flex;
+  justify-content: space-around;
+  padding-left: 20%;
+}
+
+
+span{
+  color: #28A745;
+}
+
+.form-body {
+  background-color: green;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  height: 300px;
+  display: block;
+
+}
+
+.fieldset-form{
+  display: block;
+  align-content: center;
+}
+
+
+footer{
+  height: 6em;
+  line-height: 2em;
+  text-align: center;
+  font-weight: 300;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  
+}
+

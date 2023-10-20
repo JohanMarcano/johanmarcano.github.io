@@ -1,0 +1,25 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    background-color: aquamarine
+}
+
+/* section {
+    background-color: green;
+} */
+
+
+
+
+/* 
+
+etiquetas (body, section, header, etc) - no lleva nada antes
+Las clases llevan un . antes de iniciar - Ej: ".verde"
+Los ID llevan # antes de iniciar - Ej: "#global"
+
+Desafío - header - section - footer
+
+
+*/
